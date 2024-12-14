@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Narrow';
+    src: url('fonts/OldRound-30-1-1.woff2') format('woff2'),
+        url('fonts/OldRound-30-1-1.woff2') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+@font-face {
+    font-family: 'Narrow';
+    src: url('fonts/OldRound-30-1-1.woff2') format('woff2'),
+        url('fonts/OldRound-30-1-1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+@font-face {
+    font-family: 'Wide';
+    src: url('fonts/RoutedGothicWide.woff2') format('woff2'),
+        url('fonts/RoutedGothicWide.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+/* Regular Lucida Console Font */
+@font-face {
+    font-family: 'Regular';
+    src: local('Lucida Console'), 
+         local('Lucida Sans Typewriter'),
+         local('Monaco'),
+         local('Courier New'); /* Fallbacks if Lucida Console is not available */
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+/* Italic Lucida Console Font */
+@font-face {
+    font-family: 'Regular';
+    src: local('Lucida Console'), 
+         local('Lucida Sans Typewriter'),
+         local('Monaco'),
+         local('Courier New'); /* Fallbacks if Lucida Console is not available */
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.6;
+}
